@@ -1,0 +1,15 @@
+Sea N Shore IT — snsit.co.in
+============================
+
+Upload to Hostinger (or any static host):
+1. Open hPanel > Websites > snsit.co.in > File Manager > public_html
+2. Upload index.html and the whole assets folder (keep the folder structure)
+3. Visit https://snsit.co.in — done. Enable free SSL in hPanel if it isn't on yet.
+
+Edit content:
+- Projects, services, FAQ and testimonials live in the <script> near the bottom of index.html
+  (WORK, SERVICES, FAQ, QUOTES lists).
+- Testimonials stay hidden until you add real quotes to QUOTES, e.g.
+  { q:"They shipped our booking site in two weeks.", name:"Full Name", role:"Owner, Cloud Trails" }
+- Project screenshots are in assets/work/ (replace a .jpg with the same filename to update it).
+- WhatsApp number for the contact form: the WA constant at the top of the script.
