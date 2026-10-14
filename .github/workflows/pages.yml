@@ -23,9 +23,8 @@ jobs:
         with:
           node-version: 20
       - run: npm install --no-audit --no-fund
+      # Served from the custom domain snsit.si, so no base path is needed.
       - run: npm run build
-        env:
-          PAGES_BASE_PATH: /snsit-website
       - run: touch out/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:
