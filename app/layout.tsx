@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title: "Sea N Shore IT",
   description:
     "Sea N Shore IT Solutions LLP designs, builds and runs websites, platforms, mobile apps and AI automation. Built Sea N Shore, Marine Tanks, VerifyU, Cloud Trails and inFAMOUS Gaming Cafe.",
-  metadataBase: new URL("https://snsit.co.in"),
+  metadataBase: new URL("https://snsit.si"),
   icons: { icon: "/assets/brand/sns-mark-color.png" },
   openGraph: {
     title: "Sea N Shore IT",
     description: "Websites, platforms, mobile apps and AI automation by Sea N Shore IT Solutions LLP.",
-    url: "https://snsit.co.in",
+    url: "https://snsit.si",
     images: [{ url: "/assets/og.jpg" }],
   },
 }
