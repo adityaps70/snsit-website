@@ -4,7 +4,7 @@ export const CONTACT = {
   phoneRaw: "+918299044462",
   whatsapp: "918299044462",
   company: "Sea N Shore IT Solutions LLP",
-  domain: "snsit.co.in",
+  domain: "snsit.si",
 }
 
 export const NAV = [
